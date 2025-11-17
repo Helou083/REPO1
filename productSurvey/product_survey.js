@@ -8,7 +8,7 @@ function submitFeedback() {
     const designation = document.getElementById('designation').value;
     const productType = document.getElementById('productType').value;
     const feedback = document.getElementById('feedbackText').value;
-
+   
     alert('Thank you for your valuable feedback');
 
     document.getElementById('userName').innerHTML = username;
@@ -29,3 +29,4 @@ document.addEventListener('keydown', function(event) {
         submitFeedback();
     }
 });
+
